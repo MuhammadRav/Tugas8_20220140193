@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #ff3366, #33ccff, #ff9933, #66ff33);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Pirates", sans-serif;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.one-piece-group {
+    color: rgb(148, 24, 24);
+}
+
+.welcome-text {
+    color: rgb(48, 48, 70);
+}
+
+.description-text {
+    color: rgb(59, 55, 55);
+}
+
+.btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c;
+    border-color: #c9302c;
+}
+
+.btn-secondary:hover {
+    background-color: #286090;
+    border-color: #286090;
+}
+
+#imageContainer p:nth-child(2) {
+    color: blue;
+}
